@@ -12,7 +12,7 @@ Comparaison des 3 modèles sur 6 images de test réelles.
 | **Forest** | forest | ✅ 100.00% | ✅ 92.87% | ✅ 89.08% | Baseline |
 | **Mountain** | mountain | ✅ 96.77% | ✅ 95.25% | ✅ 79.38% | Baseline |
 | **Sea** | sea | ❌ 99.52% (glacier) | ❌ 59.54% (glacier) | ❌ 36.18% (faible) | Aucun |
-| **Snow (Glacier)** | glacier | ❌ 39.91% (sea) | ❌ 54.36% (mountain) | ❌ 81.60% (mountain) | ResNet18* |
+| **Snow (Glacier)** | glacier | ❌ 39.91% (sea) | ❌ 54.36% (mountain) | ❌ 81.60% (mountain) | Aucun |
 | **Street** | street | ✅ 100.00% | ✅ 96.07% | ✅ 75.86% | Baseline |
 
 **Note** : Snow.png semble être une image de glacier enneigé, difficile à classifier.
@@ -228,3 +228,4 @@ ResNet18:      ████████████████████     
 ---
 
 **Conclusion Finale** : Ces résultats démontrent l'importance de regarder **au-delà de l'accuracy** et d'analyser la **calibration** et la **confiance** des prédictions. Le Deep CNN avec MixUp/CutMix offre le meilleur compromis pour un déploiement en production.
+
